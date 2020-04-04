@@ -8,7 +8,7 @@ use App\view\View;
 class HomeController implements Controller {
 
 	public static function init() {
-		View::render('index', ['name' => 'Rustam']);
+		View::render('index');
 	}
 
 }
