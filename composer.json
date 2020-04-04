@@ -1,0 +1,21 @@
+{
+    "name": "wembley/ckey",
+    "authors": [
+        {
+            "name": "wemmbley",
+            "email": "golevv.rustam@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/system/config.php",
+            "config.php"
+        ]
+    },
+    "require": {
+      "ext-pdo": "*"
+    }
+}
